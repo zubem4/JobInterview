@@ -1,0 +1,32 @@
+.content {
+  padding: 10% 30%;
+}
+
+.container{
+  display: inline-block;
+  border: 2px solid gray;
+  text-align: center;
+  padding: 50px;
+  margin: 5% 10%;
+  width: 60%;
+}
+
+.formElement {
+  display: inline-block;
+  margin-bottom: 20px;
+  width: 90%;
+}
+
+#input {
+  border: 1px solid gray;
+  border-radius: 0px;
+}
+
+#label {
+  text-wrap: normal;
+}
+
+#logo {
+  margin: 20px;
+  width: 25%;
+}

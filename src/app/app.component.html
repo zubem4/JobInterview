@@ -1,0 +1,18 @@
+<div class="content">
+  <mat-tab-group>
+    <mat-tab label="Task 1">
+      <div class="container">
+        <mat-label class="formElement label">{{ enteredText }}</mat-label>
+        <br>
+        <input matInput class="formElement" (keyup)="onInputChange($event)">
+      </div>
+    </mat-tab>
+    <mat-tab label="Task 2">
+      <mat-card class="card">
+        <img id="logo" mat-card-image src="https://upload.wikimedia.org/wikipedia/commons/a/a2/BFH_Logo_deutsch.png" alt="BFH Logo">
+      </mat-card>
+    </mat-tab>
+  </mat-tab-group>
+</div>
+
+
